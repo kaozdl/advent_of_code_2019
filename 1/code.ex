@@ -13,11 +13,9 @@ defmodule AdventDay1 do
       0
     else
       input
-      |> IO.inspect(label: "before")
       |> div3()
       |> trunc()
       |> sub2()
-      |> IO.inspect(label: "after")
     end
   end
 
